@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Eczar:wght@500&family=Inconsolata:wght@700;900&display=swap');
+
+.section1 {
+    height: 10vh;
+    background-color: rgb(20, 58, 15);
+}
+
+.logo {
+    float: left;
+    width: 5vw;
+}
+
+.navbar {
+    text-align: right;
+    padding-top: 3vh;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 1.5vw;
+    color: rgb(17, 234, 13);
+    font-family: sans-serif;
+}
+
+.link:hover {
+    color: red;
+}
+
+.section2 {
+    height: 90vh;
+    background-image: url(basil-plant.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text-section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+}
+
+.text1 {
+    color: white;
+    font-size: 5.8vw;
+    height: 10vh;
+    font-family: 'Amatic SC', sans-serif;
+    font-family: 'Eczar', serif;
+}
+
+.peragraph1 {
+    color: white;
+    font-size: 30px;
+    opacity: 0.7;
+    font-family: sans-serif;
+}
+
+.button1 {
+    width: 12vw;
+    height: 5vh;
+    border-radius: 18px;
+    margin-top: 35px;
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    font-family: sans-serif;
+}
+
+.button1:hover {
+    background-color: greenyellow;
+    color: black;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.section3 {
+    margin-left: 9vw;
+}
+
+.card {
+    width: 380px;
+    height: 450px;
+    float: left;
+    background-color: white;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.card-image {
+    width: 380px;
+    height: 250px;
+}
+
+.card-content {
+    padding-left: 15px;
+    font-family: sans-serif;
+}
+
+.card-button {
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+    background-color: rgb(38, 215, 38);
+    color: white;
+    height: 30px;
+    border-radius: 20px;
+    border-color: rgb(25, 200, 75);
+}
+
+.card-button:hover {
+    background-color: green;
+}
+
+@media screen and (max-width: 600px) {
+    .logo {
+        margin-top: 14px;
+        width: 50px;
+    }
+
+    .text-section {
+        width: 80vw;
+        margin-top: 30px;
+    }
+
+    .text1 {
+        font-size: 8vw;
+    }
+
+    .peragraph1 {
+        font-size: 5vw;
+    }
+
+    .card {
+        width: 300px;
+        height: 420px;
+    }
+
+    .card-image {
+        width: 300px;
+        height: 200px;
+    }
+
+    .head {
+        font-size: 6vw;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .button1 {
+        width: 30vw;
+    }
+
+    .section3 {
+        margin-left: 4vw;
+    }
+}
